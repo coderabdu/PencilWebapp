@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+    Abdeletif Saied
+    April 19 2022
+   -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PencilPayments</title>
+    <link rel="stylesheet" href="css/PencilRentalsCSS.css" />
+    <script src="scripts/modernizr.custom.65897.js"></script>
+    <script src="scripts/PencilPaymentsJS.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>PencilPayments</h1>
+        <img src="images/pencilBG.png" alt="pencil-image1" width="258" height="147" />
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="PencilPayments.html">payments</a></li>
+            <li><a href="PencilHome.html">Pencil Home</a></li>
+            <li><a href="PencilHistory.html">Pencil History</a></li>
+            <li><a href="PencilProducts.html">Pencil Products</a></li>
+            <li><a href="PencilReviews.html">Pencil Reviews</a></li>
+            <li><a href="PencilRentals.html">Pencil Rentals</a></li>
+            <li><a href="WebSecurity.html">Web WebSecurity</a></li>
+            <li><a href="Index.html">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <article>
+        <h2>Rent your Pencil</h2>
+        <section id="graphite">
+            <h3>Rent Details
+            </h3>
+            <div id="passengersSection">
+                <h4>Rentee</h4>
+                <ul id="passengers"></ul>
+            </div>
+            <div id="dateSection">
+                <h4>Date</h4>
+                <p id="selectedDate"></p>
+            </div>
+            <div id="countdownSection">
+                <h4>Countdown to pay</h4>
+                <p id="countdown"></p>
+            </div>
+        </section>
+        <form>
+            <fieldset class="text">
+                <legend>Add payments Details</legend>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" />
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" />
+                <input type="button" value="Add" id="addName" />
+            </fieldset>
+            <fieldset>
+                <legend>Pick a date</legend>
+                <input type="text" id="payDate" />
+            </fieldset>
+            <fieldset class="checks">
+                <legend>Choose a payment method</legend>
+                <input type="radio" id="single" name="Payment" />
+                <label for="single" id="singleLabel">Single payment</label>
+                <input type="radio" id="multiple" name="Payment" />
+                <label for="multiple" id="multipleLabel">60 monthly payments</label>
+            </fieldset>
+        </form>
+        <div id="cal">
+            <div id="prev">&lt; previous</div>
+            <div id="next">next &gt;</div>
+            <table>
+                <caption></caption>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <p id="close">close <span>&#9746;</span></p>
+        </div>
+    </article>
+    <footer>
+        <p> PencilPayments &bull; Edmonton, AB</p>
+    </footer>
+    <script src="scripts/PencilPaymentsSecurity.js"></script>
+</body>
+
+</html>

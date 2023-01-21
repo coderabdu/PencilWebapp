@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Name: Abdeletif
+    Date: April/14/2022
+    Topic: WebSecurity
+-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=page-width, initial-scale=1.0">
+    <title>PencilRentals</title>
+    <link href='http://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/WebSecurityCSS.css" />
+    <script src="scripts/modernizr.custom.05819.js"></script>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>PencilRentals</h1>
+            <img src="images/pencilBG.png" width="258" height="147" />
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="PencilPayments.html">payments</a></li>
+                <li><a href="PencilHome.html">Pencil Home</a></li>
+                <li><a href="PencilHistory.html">Pencil History</a></li>
+                <li><a href="PencilProducts.html">Pencil Products</a></li>
+                <li><a href="PencilReviews.html">Pencil Reviews</a></li>
+                <li><a href="PencilRentals.html">Pencil Rentals</a></li>
+                <li><a href="WebSecurity.html">Web WebSecurity</a></li>
+                <li><a href="Index.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h2>Web Security</h2>
+            <p>
+                <h2>Property: AppName</h2>
+                <h1>Description:</h1>
+                Name of the web browser displaying the page.
+            </p>
+            <p>
+                <h2>Property: appVersion</h2>
+                <h1>Description:</h1>
+                Version of the web browser displaying the page.
+            </p>
+            <p>
+                <h2>Property: geolocation</h2>
+                <h1>Description:</h1>
+                API for accessing the user's current location and user permission settings denying or aloowing access to that information.
+            </p>
+            <p>
+                <h2>Property: onLine</h2>
+                <h1>Description:</h1>
+                Whether the browser currently has a network connection.
+            </p>
+            <p>
+                <h2>Property: height</h2>
+                <h1>Description:</h1>
+                Height of the display screen.
+            </p>
+            <p>
+                <h2>Property: pixelDepth</h2>
+                <h1>Description:</h1>
+                Display screen's color resolution in bits per pixel.
+            </p>
+
+        </article>
+
+        <aside>
+            <h2 id="messageHead"></h2>
+            <p id="message"></p>
+        </aside>
+        <article id="location">
+            <div id="map"></div>
+            <div id="directions"></div>
+        </article>
+        <footer>
+            <p> PencilRentals &bull; Edmonton, AB</p>
+        </footer>
+    </div>
+    <script src="scripts/WebSecurityJS.js"></script>
+    <script src="PencilRentalsJS.js"></script>
+</body>
+
+</html>

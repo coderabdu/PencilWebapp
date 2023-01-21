@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Name: Abdeletif
+    Date: April/14/2022
+    Topic: PencilRentals
+-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=page-width, initial-scale=1.0">
+    <title>PencilRentals</title>
+    <link rel="stylesheet" href="css/PencilRentalsCSS.css" />
+    <script src="scripts/modernizr.custom.05819.js"></script>
+    <script src="PencilRentalsJS.js"></script>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>PencilRentals</h1>
+            <img src="images/pencilBG.png" width="258" height="147" />
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="PencilPayments.html">payments</a></li>
+                <li><a href="PencilHome.html">Pencil Home</a></li>
+                <li><a href="PencilHistory.html">Pencil History</a></li>
+                <li><a href="PencilProducts.html">Pencil Products</a></li>
+                <li><a href="PencilReviews.html">Pencil Reviews</a></li>
+                <li><a href="PencilRentals.html">Pencil Rentals</a></li>
+                <li><a href="WebSecurity.html">Web WebSecurity</a></li>
+                <li><a href="Index.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h2>PencilRentals Renting</h2>
+            <form>
+                <fieldset>
+                    <legend><span>How many Pencil would you rent?</span></legend>
+                    <input type="number" id="pencils" name="pencils" />
+                    <label for="pencils">pencils</label>
+                </fieldset>
+                <fieldset>
+                    <legend><span>Which pencils do you have?</span></legend>
+                    <input type="checkbox" id="graphite" name="carbon" value="graphite" />
+                    <label for="graphite">Graphite</label>
+                    <input type="checkbox" id="carbon" name="carbon" value="carbon" />
+                    <label for="corn">Carbonn</label>
+                    <input type="checkbox" id="grease" name="carbon" value="grease" />
+                    <label for="soy">Grease</label>
+                    <input type="checkbox" id="crayons" name="carbon" value="crayons" />
+                    <label for="alfalfa">Crayons</label>
+                    <input type="checkbox" id="mechanical" name="carbon" value="mechanical" />
+                    <label for="cotton">Mechanical</label>
+                    <input type="checkbox" id="watercolor" name="carbon" value="watercolor" />
+                    <label for="sorghum">Watercolor</label>
+                    <input type="checkbox" id="colored" name="carbon" value="colored" />
+                    <label for="rice">Colored</label>
+                </fieldset>
+                <fieldset>
+                    <legend><span>How many months per year do you use your pencils?</span></legend>
+                    <input type="number" id="months" name="months" />
+                    <label for="months">months</label>
+                </fieldset>
+                <fieldset>
+                    <legend><span>Which is your preferred pencils?</span></legend>
+                    <input type="radio" name="pencils" id="colored" value="colored" />
+                    <label for="colored">colored</label>
+                    <input type="radio" name="pencils" id="graphite" value="graphite" />
+                    <label for="graphite">graphite</label>
+                    <input type="radio" name="pencils" id="carbon" value="carbon" />
+                    <label for="carbon">Normal Pencil</label>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset class="text">
+                    <legend>Add payments Details</legend>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" />
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" />
+                    <input type="button" value="Add" id="addName" />
+                </fieldset>
+                <fieldset>
+                    <legend>Pick Order date</legend>
+                    <input type="text" id="payDate" />
+                </fieldset>
+                <fieldset class="checks">
+                    <legend>Choose a payment method</legend>
+                    <input type="radio" id="single" name="Payment" />
+                    <label for="single" id="singleLabel">Single payment</label>
+                    <input type="radio" id="multiple" name="Payment" />
+                    <label for="multiple" id="multipleLabel">60 monthly payments</label>
+                </fieldset>
+            </form>
+        </article>
+
+        <aside>
+            <h2 id="messageHead"></h2>
+            <p id="message"></p>
+        </aside>
+
+        <footer>
+            <p> PencilRentals &bull; Edmonton, AB</p>
+        </footer>
+    </div>
+    <script src="scripts/PencilRentalsSecurity.js"></script>
+</body>
+
+</html>
